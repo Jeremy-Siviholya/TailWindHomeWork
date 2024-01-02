@@ -652,6 +652,15 @@ video {
   background-color: rgb(255 255 255 / 0.7);
 }
 
+.bg-center {
+  background-position: center;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;

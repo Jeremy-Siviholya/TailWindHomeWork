@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.boxElement {
+  border: 10px solid transparent;
+
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to top, #119998, #38ef7d) border-box;
+  border-radius: 30px;
+}
